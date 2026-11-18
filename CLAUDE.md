@@ -88,4 +88,4 @@ Run specific suite: `npx vitest run tests/rules/mcp.test.ts`
 - Zod for config validation at boundaries
 - Conventional commits: feat/fix/test/refactor/docs
 
-If you were started as the project orchestrator and were not assigned a specific implementer or reviewer role in your prompt, invoke the crew64:orchestrator skill at session start. A session whose prompt assigns it a worker role (implementer, reviewer) keeps that role and does not invoke the skill. The orchestrator does not write or commit.
+If you were started as the project orchestrator and were not assigned a specific implementer or reviewer role in your prompt, invoke the crew64:orchestrator skill at session start. A session whose prompt assigns it a worker role (implementer, reviewer) keeps that role and does not invoke the skill. The orchestrator does not write or commit in the main checkout; in native mode it works in a task worktree.

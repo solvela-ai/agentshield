@@ -12,7 +12,7 @@
     "hosts": {
       "home-office-omarchy": {
         "deepseek_agent": "dsh-tui",
-        "dsh_profiles": { "0": "", "1": "" }
+        "dsh_profiles": { "0": "1-DeepSeek64", "1": "2-DeepSeek64" }
       }
     }
   },

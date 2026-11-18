@@ -4,7 +4,7 @@
     "orchestrator_guard": true,
     "model_ladder": true,
     "bot_identity": true,
-    "metering": "solvela",
+    "metering": "none",
     "build_map": false
   },
   "platform": {
@@ -17,7 +17,7 @@
     }
   },
   "gateway": {
-    "kind": "solvela",
+    "kind": "none",
     "base_url": "https://api.solvela.ai",
     "team_key_env": {
       "implementer": "SOLVELA_KEY_IMPLEMENTER",

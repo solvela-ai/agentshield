@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "crew64": {
+      "source": {
+        "source": "github",
+        "repo": "sky64/crew64"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "crew64@crew64": true
+  }
+}
